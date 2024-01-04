@@ -18,9 +18,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', [PortfolioController::class, 'index'])->name('home');
-Route::get('/skills', 'PortfolioController@skills')->name('skills');
+Route::get('/skills', [PortfolioController::class, 'skills'])->name('skills');
 Route::get('/experience', 'PortfolioController@experience')->name('experience');
-Route::get('/projects', 'PortfolioController@projects')->name('projects');
+Route::get('/projects', [PortfolioController::class, 'projects'])->name('projects');
 Route::get('/about', 'PortfolioController@about')->name('about');
-Route::get('/contact', 'PortfolioController@contact')->name('contact');
+Route::get('/contact', [PortfolioController::class, 'contact'])->name('contact');
 

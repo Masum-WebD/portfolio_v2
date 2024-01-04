@@ -1,0 +1,196 @@
+.project-title {
+    border-left: 4px solid #452473;
+}
+.my-element {
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    cursor: pointer;
+}
+.my-element:hover {
+    transform: scale(1.05);
+}
+
+
+.social-media-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background: gray;
+    transition: width 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.social-media-align:hover {
+    width: 160px;
+    border-radius: 10px;
+}
+
+.social-media-main {
+    display: none;
+    flex-direction: column;
+    top: 35%;
+    left: 0;
+    position: fixed !important;
+}
+
+@media (min-width: 1024px) {
+    .social-media-main {
+        display: flex;
+    }
+}
+
+/* skill page */
+.skill-title{
+    transition-duration: 0.5s;
+    box-shadow: 2px 4px 6px -1px  #c57766;
+    transition: transform 0.5s ease;
+}
+
+.skill-css-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px #0277BD;
+    transition: transform 0.5s ease;
+}
+.skill-bootstrap-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px #471A83;
+    transition: transform 0.5s ease;
+}
+
+.skill-tailwind-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px  #44A8B3;
+    transition: transform 0.5s ease;
+}
+.skill-javascript-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px  #FFD600;
+    transition: transform 0.5s ease;
+}
+.skill-react-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px  #00D8FF;
+    transition: transform 0.5s ease;
+}
+.skill-php-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px  #2A4758;
+    transition: transform 0.5s ease;
+}
+.skill-laravel-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px  #FF574C;
+    transition: transform 0.5s ease;
+}
+.skill-node-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px  #8AC44D;
+    transition: transform 0.5s ease;
+}
+.skill-express-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px  #B4B4B4;
+    transition: transform 0.5s ease;
+}
+.skill-sql-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px  #E87A01;
+    transition: transform 0.5s ease;
+}
+.skill-mongo-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px  #4B9E4A;
+    transition: transform 0.5s ease;
+}
+.skill-git-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px  #F05133;
+    transition: transform 0.5s ease;
+}
+.skill-github-title{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 6px -1px  #EEEEEE;
+    transition: transform 0.5s ease;
+}
+
+.skill-title:hover {
+    transform: scale(1.05);
+  }
+.skill-css-title:hover {
+    transform: scale(1.05);
+  }
+.skill-bootstrap-title:hover {
+    transform: scale(1.05);
+  }
+.skill-javascript-title:hover {
+    transform: scale(1.05);
+  }
+.skill-react-title:hover {
+    transform: scale(1.05);
+  }
+.skill-php-title:hover {
+    transform: scale(1.05);
+  }
+.skill-laravel-title:hover {
+    transform: scale(1.05);
+  }
+.skill-node-title:hover {
+    transform: scale(1.05);
+  }
+.skill-express-title:hover {
+    transform: scale(1.05);
+  }
+.skill-mongo-title:hover {
+    transform: scale(1.05);
+  }
+.skill-git-title:hover {
+    transform: scale(1.05);
+  }
+.skill-github-title:hover {
+    transform: scale(1.05);
+  }
+
+
+.tab_box{
+    width: 100%;
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+    border-bottom: 2px solid rgb(229, 229, 299);
+    position: relative;
+
+}
+.tab_box .tab_btn{
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffff;
+    background: none;
+    border: none;
+    padding: 15px 15px 0px 0px;
+    cursor: pointer;
+}
+.tab_box .tab_btn.active{
+    color: #452473;
+    background: none;;
+}
+.content_box{
+    padding: 20px;
+}
+.content_box .content{
+    display: none;
+}
+.line{
+    position: absolute;
+    top: 54px;
+    left: -1px;
+    width: 95px;
+    height: 5px;
+    background-color: #7360ff;
+    border-radius:10px ;
+    transition: all .3s ease-in-out;
+}
